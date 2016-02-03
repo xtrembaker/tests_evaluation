@@ -6,3 +6,8 @@
   - Number : Floating point number (there's always some decimals). Unlike other programming languages, there's only one number type ... and it can make math weird.
   - String : a sequence of characters (both quote and single quote and can be used)
   - Symbol : Used in ES6 (the next version of javascript)
+
+
+
+A FAIRE :
+- Creer un test permettant de tester le candidat sur les attaques XSS (Cross Site Scripting). En gros verifier qu'il utilise bien les methodes d'echappement avant un print
