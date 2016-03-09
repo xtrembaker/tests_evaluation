@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Que va afficher le code suivant ?
+ * What will display the following code ?
  */
 if('5' == 5){
     echo "vrai";
@@ -10,7 +10,7 @@ if('5' == 5){
 }
 
 /**
- * Que va afficher le code suivant ?
+ * What will display the following code ?
  */
 
 if('5' === 5){
