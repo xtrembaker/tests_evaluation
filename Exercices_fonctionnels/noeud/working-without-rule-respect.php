@@ -1,17 +1,7 @@
 <?php
 
-$links = [
-    1 => 3,
-    7 => 3,
-    3 => 4,
-    4 => 6,
-    2 => 6,
-    6 => 9,
-    9 => 5
-];
-
-$fromIds = array_keys($links);
-$toIds = array_values($links);
+$fromIds = [1, 7, 3, 4, 2, 6, 9];
+$toIds = [3, 3, 4, 6, 6, 9, 5];
 
 function findNetworkEndpoint($startNodeId, $fromIds, $toIds): int
 {
